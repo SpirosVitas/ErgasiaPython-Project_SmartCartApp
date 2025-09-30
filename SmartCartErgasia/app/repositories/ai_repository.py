@@ -2,7 +2,7 @@ import sqlite3  # Εισαγωγή βιβλιοθήκης για σύνδεση 
 import requests # Εισαγωγή βιβλιοθήκης για κλήσεις http
 import json     # Εισαγωγή βιβλιοθήκης για διαχείριση Json 
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "*******************"
 
 class AIRepository:
     # Constructor δημιουργεί σύνδεση με τη βάση δεδομένων
@@ -66,3 +66,4 @@ class AIRepository:
         answer = self.groq(prompt)  # Στέλνει το prompt και επιστρέφει την απάντηση
 
         return cart_items, answer   # Επιστρέφει το καλάθι και την αξιολόγηση
+
