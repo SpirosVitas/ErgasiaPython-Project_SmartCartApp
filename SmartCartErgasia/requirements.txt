@@ -1,0 +1,8 @@
+Flask
+matplotlib
+numpy
+requests
+bs4
+pandas
+scikit-learn
+streamlit
